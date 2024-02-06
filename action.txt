@@ -1,7 +1,7 @@
 git add .
 全部上传
 
-git commit -m "change"
+git commit -m "修改文件"
 写修改部分
 
 git push -u origin "main"
