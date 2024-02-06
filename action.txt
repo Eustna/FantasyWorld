@@ -1,0 +1,8 @@
+git add .
+全部上传
+
+git commit -m "change"
+写修改部分
+
+git push -u origin "main"
+上传
