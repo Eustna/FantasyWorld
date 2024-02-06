@@ -1,0 +1,481 @@
+\documentclass[UTF8,12pt]{ctexart}
+    \usepackage{amsfonts}
+    \title{\textbf{魔理学概要}}
+    \author{Hanto-Amosta}
+    \date{新历}
+\begin{document}
+    \maketitle
+    \newpage
+        \pagenumbering{roman}
+        \setcounter{page}{1}
+
+        \begin{center}
+            \Huge\textbf{序言}
+        \end{center}
+            
+            人类自古便掌握了魔法，但是早期并没有形成一套对于魔法的完整的理论，直到魔法纪时期Khuld Frlame发表了魔法学第一性原理。
+            但当时那篇文章并没有取得学界的认可，因为其中运用了大量的数学，而当时具备数学基础的大贤者过于稀少。
+
+            而能看懂Khuld文章的寥寥数人也仅仅只是将其当作一个数学游戏对待，他们认为，这并不能解决任何实际问题。
+            当时主流还是人体是施法的主体，因而理论显得过于无力，它只能简单解释原理，但是并不能在魔法上得到运用。
+            
+            当然，在Khuld提出了魔法学第一性原理不久后，整片大陆便爆发了大革命，长达数十年的战火席卷了整个人类文明，魔法学的发展也就此停滞，直到天之书库的大火，魔法学的大厦一夜崩塌，而Khuld的这本第一性原理因为归属于下层的数学类，得以有幸留存下来。
+            经过数千年的重建和变革，我们的文明步入了新时代，依靠数理体系我们在科学中重建了文明。待蒸汽越过无风洋，一门古老的科学又重新展现在我们的面前，魔法在文明的大地上重现，而之后，我们用新的视角去审视这门学科。
+
+            诚如Khuld在书中写到，古代的魔法学是一本大字典，依赖于千万年的生存经验。而这些经验，赖于那场大火，已经全然化为了灰烬，我们没有那么多的时间去重复先祖的道路，所以我们选择用我们所熟悉的方式去看待这门学科。
+
+            这也是本书需要去做的工作，当今器物魔法已经慢慢步入大众生活，人们需要一个完整的灵理学体系去学习，而不是另一个浩如烟海的灵理学体系。
+
+            本书旨在用尽可能数学的语言去阐述整个魔法体系，历史上对于灵理学的探索十分曲折，有些不必要的弯路我们不需要去亲历。本书也试图去用最简洁的语言去让各位读者体会最精彩的魔法体系理论。
+            
+            \rightline{Hanto-Amosta}
+            \rightline{新纪}
+    \newpage
+    \tableofcontents
+    \newpage
+
+    \section{魔理学发展历程}
+
+    \section{魔法动理学}
+        \subsection{广义运动}
+            对于运动，
+            这是一个耳熟能详的词语，
+            但是仔细考究，
+            运动本质是什么，
+            这鲜有人能回答。
+            因而我们在正式讨论之前不妨先谈谈运动。
+
+            我想先给出定义再向各位解释：
+            \begin{equation}
+                \textbf{A}\rightarrow \textbf{B}\equiv (A_1,A_2,\dots,A_i)\rightarrow(B_1,B_2,\dots,B_i)
+            \end{equation}
+            这个式子的意思是从$\textbf{A}$运动到$\textbf{B}$,
+            其中$(A_1,A_2,\dots,A_i)$表示为$\textbf{A}$中所包含的参数，
+            这些参数用于描绘$\textbf{A}$，
+            $\textbf{B}$亦然同理。
+
+            举个最简单的例子，
+            一个一维物体在时刻$t_A$时处于$x_A$处，
+            经过运动后为在时刻$t_B$时处于$x_B$处。
+            那么按照上述定义，我们可以记为：
+            \begin{equation}
+                (t_A,x_A)\rightarrow(t_B,x_B)
+            \end{equation}
+            那对于一个三维物体，自然可以拓展为：
+            \begin{equation}
+                (t_A,x_A,y_A,z_A)\rightarrow(t_B,x_B,y_B,z_B)
+            \end{equation}
+            对于一个形状会发生改变的物体，也能有：
+            \begin{equation}
+                (t_A,x_A,y_A,z_A,\bigcirc _A)\rightarrow(t_B,x_B,y_B,z_B,\Box _B)
+            \end{equation}
+
+            这样定义，我们就将运动拓展了，
+            而从中我们也能看到，
+            运动本质便是变化，
+            那也就可以说，
+            变化就是运动。
+            而魔法本身也是变化的一部分，
+            自然也可以纳入运动的讨论，
+            对于这种定义，
+            我们称之为广义运动，
+            而魔法就是广义运动中的一员。
+
+        \subsection{时、位、态}
+            上一节中我们定义了一个广义运动：
+            \begin{equation}
+                (t_A,x_A,y_A,z_A,\bigcirc _A)\rightarrow(t_B,x_B,y_B,z_B,\Box _B)
+            \end{equation}
+            我们可以分析下其中的参数，
+            $t$为时间中的参数，
+            而$x$、$y$、$z$表示为空间中的三个方向的参数。
+
+            最后一项为状态，
+            这里我们没有用参数形式表示，
+            不过可以将其视为某个参数的函数形式：
+            \begin{equation}
+                C=C(c)
+            \end{equation}
+            或许会有疑问，
+            为什么$C$只是一个关于$c$的函数，
+            首先我们需要清楚，
+            $C$是一个符号，
+            本身不具有数的属性，
+            而$c$是一个数，
+            作为一个数，
+            它很自然地能被表示为：
+            \begin{equation}
+                c=c(t,m,n,\dots)
+            \end{equation}
+            这意味着$c$可以是个独立变化的参数，
+            也可以是别的参数的函数，
+            后面在魔法相理学中我们会详细讨论这些。
+
+            在其上的描述中我们看到了一个运动可以分为三个数学空间中的运动，
+            分别为时值空间、位值空间和态形空间，
+            我们简称为时、位、态，
+            分别记为$t$、$\textbf{r}$、$C$
+
+            在魔法动理学中，
+            我们主要需要求解的方程为：
+            \begin{equation}
+                R(t,\textbf{r})=0
+            \end{equation}
+            称之为运动方程。
+
+            而魔法相理学中，
+            主要需要求解的方程为：
+            \begin{equation}
+                \mathfrak{C} (t,C)=0
+            \end{equation}
+            这称之为态变方程。
+
+            考虑最一般的，
+            我们可以写为：
+            \begin{equation}
+                \mathfrak{M}(t,\textbf{r},C)=0
+            \end{equation}
+            这是魔法运动方程。
+        \subsection{动点和恒体}
+            在运动方程中，
+            由于不考虑物体具体的态，
+            所以其轨迹为一条线，
+            自然应该视为一个点的运动，
+            而这个点被称之为动点。
+
+            但具体的运动其轨迹不会是一条线，
+            应该为一块体积，
+            如果这么考虑，
+            运动方程就会和物体的态相关，
+            这种运动我们应该放入魔法相理学中讨论，
+            在魔法动理学中我们只考虑一种最简单的态，
+            即态不变的运动，
+            这种运动称之为恒体运动，
+            运动的物体称之为恒体。
+
+            在大尺度上，
+            物体的运动可以被试为一条线，
+            此时物体则可以被视为动点。
+            一般我们选取物体的几何中心作为动点：
+            \begin{equation}
+                \textbf{r}_{p}=\frac{1}{V}\int_{V}\textbf{r}\mathrm{d}\tau 
+            \end{equation}
+
+            对于恒体为球形，
+            在不考虑碰撞的情况下，
+            我们无论在什么情况下都可以简单将其视作动点。
+            由此我们可以对于任意几何体做内接球展开，
+            这个几何体自然就可以视为一组动点，
+            称之为动点组系统。
+
+            即动点组系统和恒体等价，
+            我们也因此可以将恒体记为：
+            \begin{equation}
+                \mathfrak{F}=\mathfrak{F}(\textbf{r}_{{p}_1},\textbf{r}_{{p}_2},\dots,\textbf{r}_{{p}_n})
+            \end{equation}
+        \subsection{广义坐标}
+            在之前定义广义运动时，
+            我们已经引入了位值空间的概念，
+            这里我们需要进一步将其拓展，
+            以方便引入广义坐标的概念。
+
+            考虑两个动点，$A$和$B$：
+            \begin{equation}
+                \textbf{r}_A=\sum_{i=1}^{3}A_i\textbf{e}_i
+            \end{equation}
+            \begin{equation}
+                \textbf{r}_B=\sum_{i=1}^{3}B_i\textbf{e}_i
+            \end{equation}
+            $A$和$B$相对距离为：
+            \begin{equation}
+                r_{AB}=\sum_{i=1}^{3}\sqrt{{A_i}^2+{B_i}^2}
+            \end{equation}
+            若做坐标变换：
+            \begin{equation}
+                {\textbf{e}^{\prime}}_j=\sum_{i=1}^{3}\Lambda_{ji}\textbf{e}_i
+            \end{equation}
+            \begin{equation}
+                A_j=\sum_{i=1}^{3}\Lambda_{ji}{A^{\prime}}_i
+            \end{equation}
+            \begin{equation}
+                B_j=\sum_{i=1}^{3}\Lambda_{ji}{B^{\prime}}_i
+            \end{equation}
+            会有：
+            \begin{equation}
+                {\textbf{r}_A}^{\prime}=\sum_{j=1}^{3}{A^\prime}_j{\textbf{e}^{\prime}}_j
+            \end{equation}
+            \begin{equation}
+                {\textbf{r}_B}^{\prime}=\sum_{j=1}^{3}{B^\prime}_j{\textbf{e}^{\prime}}_j
+            \end{equation}
+            将变换代入上式：
+            \begin{equation}
+                {\textbf{r}_A}^{\prime}=\sum_{i=1}^{3}\sum_{j=1}^{3}{A^\prime}_j\Lambda_{ji}\textbf{e}_i
+            \end{equation}
+            \begin{equation}
+                {\textbf{r}_B}^{\prime}=\sum_{i=1}^{3}\sum_{j=1}^{3}{B^\prime}_j\Lambda_{ji}\textbf{e}_i
+            \end{equation}
+            由于$\Lambda_{ji}=\Lambda_{ij}$即：
+            \begin{equation}
+                r^\prime_{AB}=r_{AB}=\sum_{i=1}^{3}\sqrt{{A_i}^2+{B_i}^2}
+            \end{equation}
+            这意味着对于坐标进行变换不会改变动点之间的相对距离，
+            对于三个及以上的动点，
+            也是同理，
+            这里不再详细证明。
+
+            这表示由一堆动点组构成的系统本身状态和坐标系的选取无关，
+            最典型的例子就是恒体，
+            恒体位置的改变不会改变恒体本身。
+            为了描述系统本身的状态，
+            我们需要引入位形空间和广义坐标，
+            每一个系统的位形都可以通过选定广义坐标并唯一确定。
+            
+            广义坐标的数值大小依赖于坐标系，
+            但广义坐标本身不依赖坐标系，
+            它说明的是系统的自由度和各自由参量之间的相互大小关系，
+            完整地描述了系统的内部结构。
+
+            首先对于自由度的说明，
+            一个动点组系统的状态由动点的分布决定，
+            即：
+            \begin{equation}
+                f=f(\textbf{r}_1,\textbf{r}_2,\dots,\textbf{r}_n)
+            \end{equation}
+            如果动点之间互相独立，
+            每个动点由三个参数描述
+            即系统是一个关于$3n$个参数的函数：
+            \begin{equation}
+                f=f(q_1,q_1,\dots,q_{3n})
+            \end{equation}
+            这表示系统拥有$3n$个自由度，
+            可以通过选取$3n$个广义坐标将系统描绘。
+
+            举个例子，
+            对于只有两个动点的系统，
+            我们可以分别选取两个动点分别的空间坐标作为广义坐标，
+            也能选取一个动点的空间坐标和与另一个动点的相对坐标作为广义坐标，
+            可以表示为：
+            \begin{equation}
+                f=f(\textbf{r}_1,\textbf{r}_2)=f(\textbf{r}_1,\textbf{r}_{12})
+            \end{equation}
+            二者虽然坐标不同却描述的是同一个系统。
+
+            接着我们需要讨论如果动点之间不互相独立的情况，
+            我们将其称之为约束，
+            或者约束方程,
+            表示为：
+            \begin{equation}
+                R_k(q_1,q_1,\dots,q_{3n})=0
+            \end{equation}
+            在有约束方程的前提下，
+            系统的自由度会下降，
+            这里我们不详细证明，
+            但可以给出公式，
+            在有$k$个约束方程的前提下系统自由度为$3n-k$，
+            我们可以通过选取$3n-k$个广义坐标来将系统唯一描述。
+        \subsection{动理学运动定律}
+            从本节开始，
+            我们正式进入魔法动理学的内容，
+            主要讨论运动方程，
+            因此，
+            我们讨论的运动局限于时值空间和位值空间。
+
+            从广义运动的定义来看，
+            一个运动可以表述为：
+            \begin{equation}
+                \textbf{A}\rightarrow \textbf{B}\equiv (t_A,\textbf{r}_A)\rightarrow(t_B,\textbf{r}_B)
+            \end{equation}
+            我们可以将其简记为$(t_A,t_B,\textbf{r}_A,\textbf{r}_B)$，
+            若记$\Delta t=t_B-t_A$,$\Delta \textbf{r}=\textbf{r}_B-\textbf{r}_A$,
+            则可以等价表示为$(t_A,\Delta t,\textbf{r}_A,\Delta \textbf{r})$
+
+            而问题在于，
+            对于同一运动，
+            运动的路径可以不同，
+            因此我们需要对于运动路径做一些讨论。
+
+            最简单的方法是对于运动逐点定义，
+            将运动记为$\int(t_A,\mathrm{d}t,\textbf{r}_A,\mathrm{d}\textbf{r})$,
+            在此基础上可以定义:
+            \begin{equation}
+                \dot{\textbf{r}_A}=\frac{\mathrm{d}\textbf{r}}{\mathrm{d}t}
+            \end{equation}
+            同时将$t_A$和$\textbf{r}_A$都记为0，
+            $\dot{\textbf{r}_A}$由于逐点定义可以改写为：
+            \begin{equation}
+                \dot{\textbf{r}}=\textbf{v}(\textbf{r})
+            \end{equation}
+            其中$\textbf{v}$被称之为速度，
+            很自然地，
+            我们可以得到：
+            \begin{equation}
+                \int\mathrm{d} t=\int \frac{1}{\textbf{v}(\textbf{r})}\mathrm{d}\textbf{r}
+            \end{equation}
+            即：
+            \begin{equation}
+                R(t,\textbf{r})=t-\int \frac{1}{\textbf{v}(\textbf{r})}\mathrm{d}\textbf{r}=0
+            \end{equation}
+            这是在我们能逐点定义运动的情况下的运动方程，
+            但这种方式需要我们确保每个坐标只能对应一种速度。
+
+            所以对于$\dot{\textbf{r}_A}$，
+            我们还可以记为：
+            \begin{equation}
+                \dot{\textbf{r}}=\textbf{v}(t)
+            \end{equation}
+            在这种驻点定义的情况下，
+            运动方程转变为：
+            \begin{equation}
+                R(t,\textbf{r})=\textbf{r}-\int \textbf{v}(t)\mathrm{d}t=0
+            \end{equation}
+            由于时间是单向的，
+            所以避免了上面的问题，
+            因此我们一般采用这种写法。
+
+            现在的问题在于我们要如何去求$\textbf{v}(t)$，
+            从正面入手，
+            我们确实难以获得有用的知识，
+            不妨从另一方面考虑，
+            什么导致了$\textbf{v}(t)$的变化。
+            
+            一种毋庸置疑的猜想是，
+            \emph{当物体在不受干涉的情况下，
+            它总是趋向于直线运动。}
+
+            上述是动理学第一定律的基础表述，
+            后来经过大量实验侧脸，
+            我们能得到第二个猜想，
+            也是动理学第二定律：
+            \emph{当物体在不受干涉的情况下，
+            它的速度大小不会发生变化。}
+
+            二者统称为动理学运动定律，
+            可以统一描述为：
+            \emph{当物体在不受干涉的情况下，
+            其速度不变。}
+
+            因此，
+            我们可以通过初速度与干涉情况来判断速度的变化，
+            从而得到速度的表达式。
+            \subsection{最小作用原理}
+            通过分析干涉的方式我们可以得到运动方程，
+            但是过程过于繁琐，
+            与此同时，
+            我们有另一套更为简洁且优美的方案也能实现同样的效果。
+
+            根据动理学运动定律我们可以得知，
+            无外加干涉物体的运动路径为直线，
+            但如果施加了干涉，
+            运动路径就会改变。
+            我们不妨假设路径的变化和干涉程度成正相关。
+            同时对干涉程度进行量化，
+            用符号I来指代。
+            
+            在一个运动中，
+            存在一个自然运动的直线路径，
+            也应该有多种干涉运动的其他路径。
+            不过无论路径多么复杂，
+            按照运动的定义，
+            它们的用时是相等的。
+            那我们可以直接设定一个运动的用时为$t_2-t_1$，
+            而在这段时间内对每一时刻的干涉程度进行积分，
+            得到一个总的干涉量：S，
+            记为作用量。
+            \begin{equation}
+                S=\int_{t_1}^{t_2}I\mathrm{d}t 
+            \end{equation}
+            而直线路径理应是干涉最少，
+            作用量最小的一条路径，
+            即：
+            \begin{equation} 
+                \delta S=\int_{t_1}^{t_2}\delta I\mathrm{d}t=0
+            \end{equation}
+            又由于运动可以由$(m,r_A,\dot{r},t)$去等价表述。
+            当我们在考虑某一点的干涉程度时，
+            不包含关于B的位置信息，
+            因而变量中不能包含B点的位置信息$\emph{r}_B$，所以
+            \begin{equation}I=I(m,r_A,\dot{r},t)\end{equation}
+            出于讲述方便，以上的公式仅仅只是为了展现一个直观图像，所以并没有按照实际情况去赋予符号，
+            但在做接下来的推导之前，我们需要进行数学上的一些修改以使得其更严谨。
+            \begin{equation}I=I(m,\textbf{r},\dot{\textbf{r}},t)\end{equation}
+            \begin{equation} \textbf{r}=\sum_{i = 1}^{3}x^i\textbf{e}^i  \end{equation}
+            这里对其进行说明，由于空间是三维情况，所以对于原来的$r_A$需要改写为矢量，速度同理。同时，I的干涉位置
+            不是一个确定的矢量，所以我们避免歧义放弃使用$r_A$这个符号，转而换为$\textbf{r}$表示干涉的位置，至于
+            前文中表示两点距离的$r$我们以后记为$\textbf{R}$。
+
+            但这里值得注意的是如果将$r_A$改$\textbf{r}$后，一个标量会变为一个矢量，而$I$依然是一个标量，所以$I$应该是关于$\textbf{r}^2$和$\dot{\textbf{r}}^2$的函数，这里如果不理解我们之后会继续讨论。
+            
+            接着上面步骤继续变分我们可以得到：
+            \begin{equation} \delta I=\frac{\partial I}{\partial m}\delta m +\frac{\partial I}{\partial t}\delta t+
+            \sum_{i=1}^{3}(\frac{\partial I}{\partial x^i}\delta x^i 
+            +\frac{\partial I}{\partial \dot{x}^i}\delta \dot{x}^i) \end{equation}
+            则
+            \begin{equation}
+            \delta S=\int_{t_1}^{t_2}  \,[\frac{\partial I}{\partial m}\delta m +\frac{\partial I}{\partial t}\delta t+
+            \sum_{i=1}^{3}(\frac{\partial I}{\partial x^i}\delta x^i 
+            +\frac{\partial I}{\partial \dot{x}^i}\delta \dot{x}^i)]dt  =0
+            \end{equation}
+            我们先来讨论前半部分，在一个运动中，因为我们探讨的是路径的
+            差异，所以我们先要假定运动的主体不会改变，即$\delta m=0$，这种情况称之为\textbf{等态变分}。而又因为时间是一维的，对于一个运动
+            而言，无论选哪那一种路径，它们在时间这一维度的轴上路径都是一致且确定的，这也就意味着一个
+            运动的$\delta t=0$，对于这种情况，我们称之为\textbf{等时变分}。
+            
+            这样，我们能很简单地得到\begin{equation}
+            \int_{t_1}^{t_2}\,(\frac{\partial I}{\partial m}\delta m+\frac{\partial I}{\partial t}\delta t)dt=0
+            \end{equation}
+            剩下的只需要保证
+            \begin{equation}
+            \delta S=\int_{t_1}^{t_2}\,\sum_{i=1}^{3}(\frac{\partial I}{\partial x^i}\delta x^i+\frac{\partial I}{\partial \dot{x}^i}\delta \dot{x}^i)dt=0
+            \end{equation}
+            又由于
+            \begin{equation}
+            \frac{\partial I}{\partial \dot{x}^i}\delta \dot{x}^i=\frac{\partial I}{\partial \dot{x}^i}\frac{d}{dt}\delta x^i=
+            \frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)-\frac{d}{dt}\frac{\partial I}{\partial \dot{x}^i}\delta x^i
+            \end{equation}
+            所以
+            \begin{equation}
+            \delta S=\int_{t_1}^{t_2}\,\sum_{i=1}^3[\frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)+
+            (\frac{\partial I}{\partial x^i}-\frac{d}{dt}\frac{\partial I}{\partial \dot{x}^i})\delta x^i]dt
+            \end{equation}
+            要保证$\delta S=0$成立，那么这意味着无论$\delta x^i$取何值都不影响$\delta S$
+
+            那么我们可以要求如下二式是成立的
+            \begin{equation}
+            \int_{t_1}^{t_2}\,\sum_{i=1}^3\frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)dt=0
+            \end{equation}
+            \begin{equation}
+            \int_{t_1}^{t_2}\,\sum_{i=1}^3(\frac{\partial I}{\partial x^i}-\frac{d}{dt}\frac{\partial I}{\partial \dot{x}^i})\delta x^i dt=0
+            \end{equation}
+            我们对第一个式子进行变形
+            \begin{equation}
+            \int_{t_1}^{t_2}\,\sum_{i=1}^3\frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)dt=
+            \sum_{i=1}^3[\frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)|_{t=t_2}-\frac{d}{dt}(\frac{\partial I}{\partial \dot{x}^i}\delta x^i)|_{t=t_1}]
+            \end{equation}
+            这里不难发现，在$t_1$和$t_2$时候，根据运动的定义，首末两端的坐标是确定的，因而$\delta x^i=0$,
+            所以我们已经证明了第一个式子是恒成立的。
+            
+            接下来要使得第二个式子也是恒成立的只需要令
+            \begin{equation}
+            \frac{d}{dt}\frac{\partial I}{\partial \dot{x}^i}=\frac{\partial I}{\partial x^i}
+            \end{equation}
+            这样，我们就得到了运动方程。
+
+
+
+            \subsubsection{多维无干涉运动}
+
+            \subsubsection{对称性和守恒律}
+    
+    \section{魔法相理学}
+         \subsection{虚功原理}
+
+         \subsection{平方反比定律}
+
+
+    \section{灵场学}
+        \subsection{场的运动方程}
+
+        \subsection{平方反比定律}
+
+    \section{灵相}
+\end{document}
