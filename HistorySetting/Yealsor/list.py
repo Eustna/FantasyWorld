@@ -64,7 +64,13 @@ if True:#1.2城邦
         "Avalon"
         "早期和Zipor一起的强力城邦"
     )
-#可用名字还有 Briarwood Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
+    
+    Briarwod = (
+        "1.2.8"
+        "Briarwod"
+        "早期和Zipor一起的强力城邦"
+    )
+#可用名字还有  Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
 
 if True:#1.3地区
     Queto = (
