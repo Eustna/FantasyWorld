@@ -38,27 +38,33 @@ if True:#1.2城邦
     Firom = (
         "1.2.3",
         "Firom",
-        ""
+        "Limdis文明另一君主制城邦"
     )
 
     Sadrce = (
         "1.2.4",
         "Sadrce",
-        ""
+        "Limdis文明民主制城邦"
     )
 
     Fudge = (
         "1.2.5",
         "Fidge",
-        ""
+        "Limdis文明民主制城邦"
     )
 
     Lapuse = (
         "1.2.6",
         "Lapuse",
-        ""
+        "Limdis文明民主制城邦"
     )
-#可用名字还有Avalon Briarwood Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
+    
+    Avalon = (
+        "1.2.7"
+        "Avalon"
+        "早期和Zipor一起的强力城邦"
+    )
+#可用名字还有 Briarwood Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
 
 if True:#1.3地区
     Queto = (
