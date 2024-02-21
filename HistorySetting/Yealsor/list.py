@@ -20,7 +20,7 @@ if True:#1.1文明
     Aediu = (
         "1.1.4",
         "Aediu",
-        "游牧文明，在东方的草原上的"
+        "游牧文明，在Pukral东部的Drou平原"
     )
 if True:#1.2城邦
     Xiuna = (
