@@ -1,6 +1,6 @@
 # Yealsor文明简史
 ## 第一章 古代史
-### 第一节 Limdis文明简介
+### 第一节 Yealsor的主要文明
 Yealsor文明是位于NxRoulise山脉东方，
 在远古时期，
 其实并没有这个概念，
@@ -8,6 +8,7 @@ Yealsor文明是位于NxRoulise山脉东方，
 Yealsor文明由两条主要的分支构成，
 分别为Erosa山脉北部Silder平原的Orddnisy文明和南部Queto平原的Limdis文明。
 
+#### Limdis文明简介
 Limdis文明它发源于Limse地区，
 一个低洼的湖泊地带，
 那里的土地肥沃，
