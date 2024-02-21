@@ -20,7 +20,7 @@ if True:#1.1文明
     Aediu = (
         "1.1.4",
         "Aediu",
-        "游牧文明，在Pukral东部的Drou平原"
+        "游牧文明，在Pukral东部的Drou草原生活"
     )
 if True:#1.2城邦
     Xiuna = (
@@ -133,6 +133,13 @@ if True:#1.3地区
         "1.3.9",
         "Drou",
         "Pukral的东侧， Aediu人生活的地区",
+        "草原"
+    )
+    
+    Aptone = (
+        "1.3.10",
+        "Aptone",
+        "Pukral的东侧的一小块平原，隶属于Drou草原",
         "平原"
     )
 #可用地名Frostwind Emerald Silverwood Crystal Sunfire Moonshadow Starfall Stormwatch Twilight Dawnbreak Skyreach Nightwhisper Windhaven Starlight Thunderpeak Rivermist Shadowglen Goldenleaf Firestone Icetide
