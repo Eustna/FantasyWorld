@@ -70,6 +70,12 @@ if True:#1.2城邦
         "Briarwod"
         "早期和Zipor一起的强力城邦"
     )
+    
+    Pashi = (
+        "1.2.9"
+        "Pashi"
+        "Pukura河流两岸"
+    )
 #可用名字还有  Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
 
 if True:#1.3地区
