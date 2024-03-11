@@ -76,6 +76,12 @@ if True:#1.2城邦
         "Pashi"
         "Pukura河流两岸"
     )
+
+    Calom = (
+        "1.2.9"
+        "Calom"
+        "Lurte城邦的宗主城邦"
+    )
 #可用名字还有  Cinderfall Duskendale Everlight Frosthold Glimmerdeep Havencrest Ironspire Jadeport Kingspire Lionoar Mysthaven Nightsong Oakenfort Pinevale Quartzhall Ravenrock Stormwatch Thundertop
 
 if True:#1.3地区
@@ -147,6 +153,13 @@ if True:#1.3地区
         "Aptone",
         "Pukral的东侧的一小块平原，隶属于Drou草原",
         "平原"
+    )
+
+    Finua = (
+        "1.3.11",
+        "Finua",
+        "Queto南部的高原地区",
+        "高原"
     )
 #可用地名Frostwind Emerald Silverwood Crystal Sunfire Moonshadow Starfall Stormwatch Twilight Dawnbreak Skyreach Nightwhisper Windhaven Starlight Thunderpeak Rivermist Shadowglen Goldenleaf Firestone Icetide
 
